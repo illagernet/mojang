@@ -1,10 +1,10 @@
-# Plugin Template
+# Mojang API Wrapper
 
-Spigot plugin template.
+Spigot plugin that serves as a wrapper for the Mojang API
 
 ## Usage
 
-This template plugin has no functionality.
+This plugin has no inate functionality.
 
 ## Project Structure
 
@@ -12,19 +12,17 @@ This template plugin has no functionality.
     ├── build.sh                      # Build script
     ├── classes                       # Java class argfile
     ├── src                           # Java source files
-    │   └── illager/net/template      # Package namespace
-    │       └── TemplatePlugin.java   # Main plugin class
-    ├── res                           # Resource files
-    │   └── config.yml                # Plugin configuration
+    │   └── net/illager/template      # Package namespace
     ├── (lib)                         # Downloaded libraries. Generated on build
     ├── (bin)                         # Compiled output. Generated on build
     └── (doc)                         # Javadoc documentation. Generated on build
 
 ## Building
 
-1. List the relative paths to all class source files in `classes`.
+1. List the relative paths to all class source files in `classes`. E.g.:
 ```
-src/net/illager/template/TemplatePlugin.java
+src/net/illager/mojang/MojangAPIPlugin.java
+...
 ```
 2. Run the build script with Bash:
 ```
