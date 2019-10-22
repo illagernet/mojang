@@ -37,5 +37,5 @@ javadoc -cp "$cp" -link "https://hub.spigotmc.org/javadocs/spigot/" -d doc @clas
 # Package plugin
 echo "Packaging plugin"
 jar="$(meta name)-$(meta version).jar"
-jar -cvf "$jar" -C res . -C bin .
+jar -cvf "$jar" -C bin .
 echo "Packaged as $jar"
