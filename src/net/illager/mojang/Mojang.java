@@ -16,7 +16,7 @@ import org.apache.http.HttpEntity;
 import org.apache.http.util.EntityUtils;
 import com.google.code.gson.Gson;
 
-@Plugin(name = "MojangAPI", version = "1.0.0-beta")
+@Plugin(name = "Mojang", version = "1.0.0-beta")
 @Description("Serves as a wrapper for the Mojang API. This plugin has no inate functionality.")
 @Author("Illager Net")
 @Website("https://illager.net")

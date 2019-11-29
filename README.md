@@ -1,6 +1,6 @@
 # Mojang API Wrapper
 
-Spigot plugin that serves as a wrapper for the Mojang API
+Spigot plugin that serves as a wrapper for the Mojang API.
 
 ## Usage
 
